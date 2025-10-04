@@ -1,0 +1,300 @@
+2025-10-04 01:19:43,587 - === CIFAR-10 Training Started ===
+2025-10-04 01:19:43,588 - Logs will be saved to: logs/training_log_20251004_011943.txt
+2025-10-04 01:19:43,589 - Random seed set to 42
+2025-10-04 01:19:43,613 - Using device: cuda
+2025-10-04 01:19:43,870 - === Model Architecture ===
+2025-10-04 01:19:43,870 - Total parameters: 161,234
+2025-10-04 01:19:43,870 - Receptive field: 47
+2025-10-04 01:19:43,870 - Parameters < 200k: True
+2025-10-04 01:19:43,870 - RF > 44: True
+2025-10-04 01:19:43,870 - === Model Summary ===
+2025-10-04 01:19:43,870 - Could not generate torch summary: summary() got an unexpected keyword argument 'verbose'
+2025-10-04 01:19:45,575 - Data loaders created - Train batches: 391, Test batches: 79
+2025-10-04 01:19:45,576 - === Training Configuration ===
+2025-10-04 01:19:45,576 - Loss function: CrossEntropyLoss
+2025-10-04 01:19:45,576 - Optimizer: SGD (lr=0.01, momentum=0.9, weight_decay=1e-4)
+2025-10-04 01:19:45,576 - Scheduler: OneCycleLR (max_lr=0.1)
+2025-10-04 01:19:45,576 - Batch size: 128
+2025-10-04 01:19:45,576 - 
+=== Starting Training for 100 epochs ===
+2025-10-04 01:19:45,576 - 
+--- Epoch [1/100] ---
+2025-10-04 01:20:06,456 - Epoch 1 Training - Loss: 1.7699, Accuracy: 31.95%
+2025-10-04 01:20:08,125 - Epoch 1 Validation - Loss: 1.6535, Accuracy: 39.54%
+2025-10-04 01:20:08,125 - Epoch 1 Summary:
+2025-10-04 01:20:08,125 -   Train Loss: 1.7699, Train Acc: 31.95%
+2025-10-04 01:20:08,125 -   Val Loss: 1.6535, Val Acc: 39.54%
+2025-10-04 01:20:08,125 -   Learning Rate: 0.010000
+2025-10-04 01:20:08,137 -   *** New best model saved with accuracy: 39.54% ***
+2025-10-04 01:20:08,137 - 
+--- Epoch [2/100] ---
+2025-10-04 01:20:29,624 - Epoch 2 Training - Loss: 1.3199, Accuracy: 51.49%
+2025-10-04 01:20:32,318 - Epoch 2 Validation - Loss: 1.3938, Accuracy: 49.47%
+2025-10-04 01:20:32,318 - Epoch 2 Summary:
+2025-10-04 01:20:32,318 -   Train Loss: 1.3199, Train Acc: 51.49%
+2025-10-04 01:20:32,319 -   Val Loss: 1.3938, Val Acc: 49.47%
+2025-10-04 01:20:32,319 -   Learning Rate: 0.010000
+2025-10-04 01:20:32,328 -   *** New best model saved with accuracy: 49.47% ***
+2025-10-04 01:20:32,328 - 
+--- Epoch [3/100] ---
+2025-10-04 01:20:53,716 - Epoch 3 Training - Loss: 1.1043, Accuracy: 59.99%
+2025-10-04 01:20:55,368 - Epoch 3 Validation - Loss: 1.2718, Accuracy: 57.27%
+2025-10-04 01:20:55,369 - Epoch 3 Summary:
+2025-10-04 01:20:55,369 -   Train Loss: 1.1043, Train Acc: 59.99%
+2025-10-04 01:20:55,369 -   Val Loss: 1.2718, Val Acc: 57.27%
+2025-10-04 01:20:55,369 -   Learning Rate: 0.010000
+2025-10-04 01:20:55,378 -   *** New best model saved with accuracy: 57.27% ***
+2025-10-04 01:20:55,378 - 
+--- Epoch [4/100] ---
+2025-10-04 01:21:16,963 - Epoch 4 Training - Loss: 0.9704, Accuracy: 65.19%
+2025-10-04 01:21:18,611 - Epoch 4 Validation - Loss: 0.9519, Accuracy: 66.44%
+2025-10-04 01:21:18,612 - Epoch 4 Summary:
+2025-10-04 01:21:18,612 -   Train Loss: 0.9704, Train Acc: 65.19%
+2025-10-04 01:21:18,612 -   Val Loss: 0.9519, Val Acc: 66.44%
+2025-10-04 01:21:18,612 -   Learning Rate: 0.010000
+2025-10-04 01:21:18,621 -   *** New best model saved with accuracy: 66.44% ***
+2025-10-04 01:21:18,621 - 
+--- Epoch [5/100] ---
+2025-10-04 01:21:39,249 - Epoch 5 Training - Loss: 0.8734, Accuracy: 68.96%
+2025-10-04 01:21:41,825 - Epoch 5 Validation - Loss: 0.9687, Accuracy: 66.68%
+2025-10-04 01:21:41,825 - Epoch 5 Summary:
+2025-10-04 01:21:41,825 -   Train Loss: 0.8734, Train Acc: 68.96%
+2025-10-04 01:21:41,825 -   Val Loss: 0.9687, Val Acc: 66.68%
+2025-10-04 01:21:41,825 -   Learning Rate: 0.010000
+2025-10-04 01:21:41,844 -   *** New best model saved with accuracy: 66.68% ***
+2025-10-04 01:21:41,845 - 
+--- Epoch [6/100] ---
+2025-10-04 01:22:02,266 - Epoch 6 Training - Loss: 0.7997, Accuracy: 71.78%
+2025-10-04 01:22:03,956 - Epoch 6 Validation - Loss: 0.8339, Accuracy: 70.34%
+2025-10-04 01:22:03,957 - Epoch 6 Summary:
+2025-10-04 01:22:03,957 -   Train Loss: 0.7997, Train Acc: 71.78%
+2025-10-04 01:22:03,957 -   Val Loss: 0.8339, Val Acc: 70.34%
+2025-10-04 01:22:03,957 -   Learning Rate: 0.010001
+2025-10-04 01:22:03,973 -   *** New best model saved with accuracy: 70.34% ***
+2025-10-04 01:22:03,973 - 
+--- Epoch [7/100] ---
+2025-10-04 01:22:25,449 - Epoch 7 Training - Loss: 0.7445, Accuracy: 73.98%
+2025-10-04 01:22:27,103 - Epoch 7 Validation - Loss: 0.7189, Accuracy: 74.95%
+2025-10-04 01:22:27,104 - Epoch 7 Summary:
+2025-10-04 01:22:27,104 -   Train Loss: 0.7445, Train Acc: 73.98%
+2025-10-04 01:22:27,104 -   Val Loss: 0.7189, Val Acc: 74.95%
+2025-10-04 01:22:27,104 -   Learning Rate: 0.010001
+2025-10-04 01:22:27,114 -   *** New best model saved with accuracy: 74.95% ***
+2025-10-04 01:22:27,114 - 
+--- Epoch [8/100] ---
+2025-10-04 01:22:48,816 - Epoch 8 Training - Loss: 0.6902, Accuracy: 75.93%
+2025-10-04 01:22:50,869 - Epoch 8 Validation - Loss: 0.8125, Accuracy: 72.13%
+2025-10-04 01:22:50,869 - Epoch 8 Summary:
+2025-10-04 01:22:50,869 -   Train Loss: 0.6902, Train Acc: 75.93%
+2025-10-04 01:22:50,869 -   Val Loss: 0.8125, Val Acc: 72.13%
+2025-10-04 01:22:50,869 -   Learning Rate: 0.010001
+2025-10-04 01:22:50,869 - 
+--- Epoch [9/100] ---
+2025-10-04 01:23:12,926 - Epoch 9 Training - Loss: 0.6561, Accuracy: 77.23%
+2025-10-04 01:23:14,596 - Epoch 9 Validation - Loss: 0.6759, Accuracy: 77.13%
+2025-10-04 01:23:14,596 - Epoch 9 Summary:
+2025-10-04 01:23:14,596 -   Train Loss: 0.6561, Train Acc: 77.23%
+2025-10-04 01:23:14,596 -   Val Loss: 0.6759, Val Acc: 77.13%
+2025-10-04 01:23:14,596 -   Learning Rate: 0.010001
+2025-10-04 01:23:14,605 -   *** New best model saved with accuracy: 77.13% ***
+2025-10-04 01:23:14,605 - 
+--- Epoch [10/100] ---
+2025-10-04 01:23:35,163 - Epoch 10 Training - Loss: 0.6216, Accuracy: 78.42%
+2025-10-04 01:23:37,800 - Epoch 10 Validation - Loss: 0.6558, Accuracy: 77.78%
+2025-10-04 01:23:37,800 - Epoch 10 Summary:
+2025-10-04 01:23:37,800 -   Train Loss: 0.6216, Train Acc: 78.42%
+2025-10-04 01:23:37,800 -   Val Loss: 0.6558, Val Acc: 77.78%
+2025-10-04 01:23:37,800 -   Learning Rate: 0.010001
+2025-10-04 01:23:37,814 -   *** New best model saved with accuracy: 77.78% ***
+2025-10-04 01:23:37,814 - 
+--- Epoch [11/100] ---
+2025-10-04 01:23:58,632 - Epoch 11 Training - Loss: 0.5950, Accuracy: 79.47%
+2025-10-04 01:24:00,273 - Epoch 11 Validation - Loss: 0.7126, Accuracy: 76.48%
+2025-10-04 01:24:00,274 - Epoch 11 Summary:
+2025-10-04 01:24:00,274 -   Train Loss: 0.5950, Train Acc: 79.47%
+2025-10-04 01:24:00,274 -   Val Loss: 0.7126, Val Acc: 76.48%
+2025-10-04 01:24:00,274 -   Learning Rate: 0.010002
+2025-10-04 01:24:00,274 - 
+--- Epoch [12/100] ---
+2025-10-04 01:24:21,942 - Epoch 12 Training - Loss: 0.5817, Accuracy: 80.02%
+2025-10-04 01:24:23,666 - Epoch 12 Validation - Loss: 0.6498, Accuracy: 77.75%
+2025-10-04 01:24:23,667 - Epoch 12 Summary:
+2025-10-04 01:24:23,667 -   Train Loss: 0.5817, Train Acc: 80.02%
+2025-10-04 01:24:23,667 -   Val Loss: 0.6498, Val Acc: 77.75%
+2025-10-04 01:24:23,667 -   Learning Rate: 0.010002
+2025-10-04 01:24:23,667 - 
+--- Epoch [13/100] ---
+2025-10-04 01:24:45,200 - Epoch 13 Training - Loss: 0.5491, Accuracy: 81.09%
+2025-10-04 01:24:46,894 - Epoch 13 Validation - Loss: 0.6743, Accuracy: 77.87%
+2025-10-04 01:24:46,894 - Epoch 13 Summary:
+2025-10-04 01:24:46,894 -   Train Loss: 0.5491, Train Acc: 81.09%
+2025-10-04 01:24:46,894 -   Val Loss: 0.6743, Val Acc: 77.87%
+2025-10-04 01:24:46,894 -   Learning Rate: 0.010002
+2025-10-04 01:24:46,904 -   *** New best model saved with accuracy: 77.87% ***
+2025-10-04 01:24:46,904 - 
+--- Epoch [14/100] ---
+2025-10-04 01:25:08,074 - Epoch 14 Training - Loss: 0.5369, Accuracy: 81.42%
+2025-10-04 01:25:10,225 - Epoch 14 Validation - Loss: 0.6382, Accuracy: 78.11%
+2025-10-04 01:25:10,225 - Epoch 14 Summary:
+2025-10-04 01:25:10,225 -   Train Loss: 0.5369, Train Acc: 81.42%
+2025-10-04 01:25:10,225 -   Val Loss: 0.6382, Val Acc: 78.11%
+2025-10-04 01:25:10,225 -   Learning Rate: 0.010003
+2025-10-04 01:25:10,240 -   *** New best model saved with accuracy: 78.11% ***
+2025-10-04 01:25:10,240 - 
+--- Epoch [15/100] ---
+2025-10-04 01:25:31,680 - Epoch 15 Training - Loss: 0.5181, Accuracy: 81.96%
+2025-10-04 01:25:34,050 - Epoch 15 Validation - Loss: 0.5705, Accuracy: 80.67%
+2025-10-04 01:25:34,051 - Epoch 15 Summary:
+2025-10-04 01:25:34,051 -   Train Loss: 0.5181, Train Acc: 81.96%
+2025-10-04 01:25:34,052 -   Val Loss: 0.5705, Val Acc: 80.67%
+2025-10-04 01:25:34,052 -   Learning Rate: 0.010003
+2025-10-04 01:25:34,065 -   *** New best model saved with accuracy: 80.67% ***
+2025-10-04 01:25:34,065 - 
+--- Epoch [16/100] ---
+2025-10-04 01:25:55,040 - Epoch 16 Training - Loss: 0.5071, Accuracy: 82.57%
+2025-10-04 01:25:56,699 - Epoch 16 Validation - Loss: 0.5907, Accuracy: 80.00%
+2025-10-04 01:25:56,699 - Epoch 16 Summary:
+2025-10-04 01:25:56,699 -   Train Loss: 0.5071, Train Acc: 82.57%
+2025-10-04 01:25:56,700 -   Val Loss: 0.5907, Val Acc: 80.00%
+2025-10-04 01:25:56,700 -   Learning Rate: 0.010004
+2025-10-04 01:25:56,700 - 
+--- Epoch [17/100] ---
+2025-10-04 01:26:18,350 - Epoch 17 Training - Loss: 0.4919, Accuracy: 82.78%
+2025-10-04 01:26:20,052 - Epoch 17 Validation - Loss: 0.5496, Accuracy: 81.09%
+2025-10-04 01:26:20,052 - Epoch 17 Summary:
+2025-10-04 01:26:20,052 -   Train Loss: 0.4919, Train Acc: 82.78%
+2025-10-04 01:26:20,052 -   Val Loss: 0.5496, Val Acc: 81.09%
+2025-10-04 01:26:20,052 -   Learning Rate: 0.010004
+2025-10-04 01:26:20,061 -   *** New best model saved with accuracy: 81.09% ***
+2025-10-04 01:26:20,061 - 
+--- Epoch [18/100] ---
+2025-10-04 01:26:41,659 - Epoch 18 Training - Loss: 0.4756, Accuracy: 83.40%
+2025-10-04 01:26:43,329 - Epoch 18 Validation - Loss: 0.5479, Accuracy: 81.82%
+2025-10-04 01:26:43,330 - Epoch 18 Summary:
+2025-10-04 01:26:43,330 -   Train Loss: 0.4756, Train Acc: 83.40%
+2025-10-04 01:26:43,330 -   Val Loss: 0.5479, Val Acc: 81.82%
+2025-10-04 01:26:43,330 -   Learning Rate: 0.010005
+2025-10-04 01:26:43,339 -   *** New best model saved with accuracy: 81.82% ***
+2025-10-04 01:26:43,340 - 
+--- Epoch [19/100] ---
+2025-10-04 01:27:04,210 - Epoch 19 Training - Loss: 0.4630, Accuracy: 84.10%
+2025-10-04 01:27:06,340 - Epoch 19 Validation - Loss: 0.5409, Accuracy: 82.03%
+2025-10-04 01:27:06,341 - Epoch 19 Summary:
+2025-10-04 01:27:06,341 -   Train Loss: 0.4630, Train Acc: 84.10%
+2025-10-04 01:27:06,341 -   Val Loss: 0.5409, Val Acc: 82.03%
+2025-10-04 01:27:06,341 -   Learning Rate: 0.010005
+2025-10-04 01:27:06,350 -   *** New best model saved with accuracy: 82.03% ***
+2025-10-04 01:27:06,350 - 
+--- Epoch [20/100] ---
+2025-10-04 01:27:26,924 - Epoch 20 Training - Loss: 0.4509, Accuracy: 84.44%
+2025-10-04 01:27:28,625 - Epoch 20 Validation - Loss: 0.5188, Accuracy: 82.42%
+2025-10-04 01:27:28,625 - Epoch 20 Summary:
+2025-10-04 01:27:28,626 -   Train Loss: 0.4509, Train Acc: 84.44%
+2025-10-04 01:27:28,626 -   Val Loss: 0.5188, Val Acc: 82.42%
+2025-10-04 01:27:28,626 -   Learning Rate: 0.010006
+2025-10-04 01:27:28,638 -   *** New best model saved with accuracy: 82.42% ***
+2025-10-04 01:27:28,638 - 
+--- Epoch [21/100] ---
+2025-10-04 01:27:51,341 - Epoch 21 Training - Loss: 0.4399, Accuracy: 84.73%
+2025-10-04 01:27:53,002 - Epoch 21 Validation - Loss: 0.4870, Accuracy: 83.98%
+2025-10-04 01:27:53,002 - Epoch 21 Summary:
+2025-10-04 01:27:53,002 -   Train Loss: 0.4399, Train Acc: 84.73%
+2025-10-04 01:27:53,002 -   Val Loss: 0.4870, Val Acc: 83.98%
+2025-10-04 01:27:53,002 -   Learning Rate: 0.010006
+2025-10-04 01:27:53,011 -   *** New best model saved with accuracy: 83.98% ***
+2025-10-04 01:27:53,012 - 
+--- Epoch [22/100] ---
+2025-10-04 01:28:14,758 - Epoch 22 Training - Loss: 0.4373, Accuracy: 84.86%
+2025-10-04 01:28:16,429 - Epoch 22 Validation - Loss: 0.4659, Accuracy: 84.30%
+2025-10-04 01:28:16,429 - Epoch 22 Summary:
+2025-10-04 01:28:16,429 -   Train Loss: 0.4373, Train Acc: 84.86%
+2025-10-04 01:28:16,429 -   Val Loss: 0.4659, Val Acc: 84.30%
+2025-10-04 01:28:16,429 -   Learning Rate: 0.010007
+2025-10-04 01:28:16,438 -   *** New best model saved with accuracy: 84.30% ***
+2025-10-04 01:28:16,438 - 
+--- Epoch [23/100] ---
+2025-10-04 01:28:38,004 - Epoch 23 Training - Loss: 0.4259, Accuracy: 85.35%
+2025-10-04 01:28:39,731 - Epoch 23 Validation - Loss: 0.5111, Accuracy: 83.70%
+2025-10-04 01:28:39,731 - Epoch 23 Summary:
+2025-10-04 01:28:39,731 -   Train Loss: 0.4259, Train Acc: 85.35%
+2025-10-04 01:28:39,731 -   Val Loss: 0.5111, Val Acc: 83.70%
+2025-10-04 01:28:39,731 -   Learning Rate: 0.010008
+2025-10-04 01:28:39,731 - 
+--- Epoch [24/100] ---
+2025-10-04 01:29:00,508 - Epoch 24 Training - Loss: 0.4214, Accuracy: 85.31%
+2025-10-04 01:29:02,940 - Epoch 24 Validation - Loss: 0.4623, Accuracy: 84.52%
+2025-10-04 01:29:02,941 - Epoch 24 Summary:
+2025-10-04 01:29:02,941 -   Train Loss: 0.4214, Train Acc: 85.31%
+2025-10-04 01:29:02,941 -   Val Loss: 0.4623, Val Acc: 84.52%
+2025-10-04 01:29:02,941 -   Learning Rate: 0.010008
+2025-10-04 01:29:02,956 -   *** New best model saved with accuracy: 84.52% ***
+2025-10-04 01:29:02,956 - 
+--- Epoch [25/100] ---
+2025-10-04 01:29:24,368 - Epoch 25 Training - Loss: 0.4072, Accuracy: 85.84%
+2025-10-04 01:29:26,098 - Epoch 25 Validation - Loss: 0.4753, Accuracy: 84.00%
+2025-10-04 01:29:26,098 - Epoch 25 Summary:
+2025-10-04 01:29:26,098 -   Train Loss: 0.4072, Train Acc: 85.84%
+2025-10-04 01:29:26,098 -   Val Loss: 0.4753, Val Acc: 84.00%
+2025-10-04 01:29:26,098 -   Learning Rate: 0.010009
+2025-10-04 01:29:26,098 - 
+--- Epoch [26/100] ---
+2025-10-04 01:29:48,049 - Epoch 26 Training - Loss: 0.4033, Accuracy: 85.97%
+2025-10-04 01:29:49,776 - Epoch 26 Validation - Loss: 0.4652, Accuracy: 84.87%
+2025-10-04 01:29:49,776 - Epoch 26 Summary:
+2025-10-04 01:29:49,776 -   Train Loss: 0.4033, Train Acc: 85.97%
+2025-10-04 01:29:49,776 -   Val Loss: 0.4652, Val Acc: 84.87%
+2025-10-04 01:29:49,777 -   Learning Rate: 0.010010
+2025-10-04 01:29:49,786 -   *** New best model saved with accuracy: 84.87% ***
+2025-10-04 01:29:49,786 - 
+--- Epoch [27/100] ---
+2025-10-04 01:30:12,622 - Epoch 27 Training - Loss: 0.3951, Accuracy: 86.33%
+2025-10-04 01:30:14,315 - Epoch 27 Validation - Loss: 0.4706, Accuracy: 84.43%
+2025-10-04 01:30:14,315 - Epoch 27 Summary:
+2025-10-04 01:30:14,315 -   Train Loss: 0.3951, Train Acc: 86.33%
+2025-10-04 01:30:14,315 -   Val Loss: 0.4706, Val Acc: 84.43%
+2025-10-04 01:30:14,316 -   Learning Rate: 0.010011
+2025-10-04 01:30:14,316 - 
+--- Epoch [28/100] ---
+2025-10-04 01:30:36,382 - Epoch 28 Training - Loss: 0.3920, Accuracy: 86.33%
+2025-10-04 01:30:38,076 - Epoch 28 Validation - Loss: 0.4926, Accuracy: 83.90%
+2025-10-04 01:30:38,077 - Epoch 28 Summary:
+2025-10-04 01:30:38,077 -   Train Loss: 0.3920, Train Acc: 86.33%
+2025-10-04 01:30:38,077 -   Val Loss: 0.4926, Val Acc: 83.90%
+2025-10-04 01:30:38,077 -   Learning Rate: 0.010011
+2025-10-04 01:30:38,078 - 
+--- Epoch [29/100] ---
+2025-10-04 01:30:58,858 - Epoch 29 Training - Loss: 0.3783, Accuracy: 86.85%
+2025-10-04 01:31:01,425 - Epoch 29 Validation - Loss: 0.5023, Accuracy: 83.68%
+2025-10-04 01:31:01,426 - Epoch 29 Summary:
+2025-10-04 01:31:01,426 -   Train Loss: 0.3783, Train Acc: 86.85%
+2025-10-04 01:31:01,426 -   Val Loss: 0.5023, Val Acc: 83.68%
+2025-10-04 01:31:01,426 -   Learning Rate: 0.010012
+2025-10-04 01:31:01,426 - 
+--- Epoch [30/100] ---
+2025-10-04 01:31:22,605 - Epoch 30 Training - Loss: 0.3785, Accuracy: 86.81%
+2025-10-04 01:31:24,273 - Epoch 30 Validation - Loss: 0.5255, Accuracy: 82.48%
+2025-10-04 01:31:24,274 - Epoch 30 Summary:
+2025-10-04 01:31:24,274 -   Train Loss: 0.3785, Train Acc: 86.81%
+2025-10-04 01:31:24,274 -   Val Loss: 0.5255, Val Acc: 82.48%
+2025-10-04 01:31:24,274 -   Learning Rate: 0.010013
+2025-10-04 01:31:24,274 - 
+--- Epoch [31/100] ---
+2025-10-04 01:31:45,877 - Epoch 31 Training - Loss: 0.3721, Accuracy: 87.12%
+2025-10-04 01:31:47,662 - Epoch 31 Validation - Loss: 0.4506, Accuracy: 85.01%
+2025-10-04 01:31:47,662 - Epoch 31 Summary:
+2025-10-04 01:31:47,662 -   Train Loss: 0.3721, Train Acc: 87.12%
+2025-10-04 01:31:47,662 -   Val Loss: 0.4506, Val Acc: 85.01%
+2025-10-04 01:31:47,662 -   Learning Rate: 0.010014
+2025-10-04 01:31:47,672 -   *** New best model saved with accuracy: 85.01% ***
+2025-10-04 01:31:47,672 - 
+🎉 Target accuracy of 85% reached! Best accuracy: 85.01%
+2025-10-04 01:31:47,672 - 
+=== Training Completed ===
+2025-10-04 01:31:47,672 - Best validation accuracy: 85.01%
+2025-10-04 01:31:47,672 - Target achieved (>=85%): True
+2025-10-04 01:31:47,672 - 
+=== Final Training Summary ===
+2025-10-04 01:31:47,672 - Total epochs completed: 31
+2025-10-04 01:31:47,673 - Final train accuracy: 87.12%
+2025-10-04 01:31:47,673 - Final validation accuracy: 85.01%
+2025-10-04 01:31:47,673 - Best validation accuracy: 85.01%
